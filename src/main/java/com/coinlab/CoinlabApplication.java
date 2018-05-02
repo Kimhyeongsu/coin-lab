@@ -10,3 +10,4 @@ public class CoinlabApplication {
 		SpringApplication.run(CoinlabApplication.class, args);
 	}
 }
+ 
