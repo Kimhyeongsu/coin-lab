@@ -1,0 +1,40 @@
+.register_container{
+    text-align: center;
+}
+
+.register_mainstr{
+    border:1px solid #dadada;
+    height:40px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.register_email{
+    height:30px;
+    line-height: 20px;
+    width:70%;
+    margin-bottom:10px;
+}
+
+.register_password{
+    height:30px;
+    line-height: 20px;
+    width:70%;
+    margin-bottom:10px;
+}
+
+.register_button{
+    display:inline-block;
+    width:70%;
+    border: 1px solid;
+    border-radius: 2px;
+    background-color: #277df4;
+    color:white;
+}
+
+.register_block{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #a94442;
+}

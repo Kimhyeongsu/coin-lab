@@ -1,0 +1,33 @@
+.login_container{
+    text-align: center;
+}
+
+.login_mainstr{
+    border:1px solid #dadada;
+    height:40px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.login_email{
+    height:30px;
+    line-height: 20px;
+    width:70%;
+    margin-bottom:10px;
+}
+
+.login_password{
+    height:30px;
+    line-height: 20px;
+    width:70%;
+    margin-bottom:40px;
+}
+
+.login_button{
+    display:inline-block;
+    width:calc(100% - 30px);
+    border: 1px solid;
+    border-radius: 2px;
+    background-color: #277df4;
+    color:white;
+}

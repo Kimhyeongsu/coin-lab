@@ -1,0 +1,35 @@
+.priceTable{
+    width:100%;
+}
+
+.priceTable tbody td{
+    padding: 5px 10px 5px 10px;
+    border-bottom:1px solid #d1d5d7;        
+}
+
+.priceTable .name{
+    width:50%;
+}
+
+.priceTable .volatility{
+    width:20%;
+    text-align: right;
+}
+
+.priceTable .price{
+    width:20%;    
+    text-align: right;
+}
+
+.plus{
+    color:#d24f45;
+    font-weight:bold;
+}
+
+.minus{
+    color:#1261c4;
+    font-weight:bold;
+}
+
+
+

@@ -1,0 +1,10 @@
+body{
+    margin:0px;
+    overflow-x: hidden;
+}
+
+.horizontal_button{    
+    border:1px solid #dadada;
+    height:60px;
+    line-height: 60px;
+}
