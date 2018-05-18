@@ -8,4 +8,5 @@ public interface userService {
 	//public int memberList() throws Exception;
 	
 	public List<userVO> userAll() throws Exception;
+	userVO signin(String email, String password);
 }

@@ -10,7 +10,7 @@ com.coinlab.util
 com.coinlab.xxx
 
 # 개발환경
-java 9
+java 8
 mariadb 5.7.21
 mybatis 3.4.1
 gradle
