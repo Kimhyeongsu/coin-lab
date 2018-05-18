@@ -31,3 +31,9 @@ Data state 관리도구 :[Redux](https://redux.js.org/index.html)
 모의투자 frontend 개발소스 입니다.
 
 - 2018.03.16 UI Plugin 제거
+
+## 프론트 소스 반영방법
+
+node package install : npm install
+build & copy source  : npm run build && cp -r build/* publoc
+

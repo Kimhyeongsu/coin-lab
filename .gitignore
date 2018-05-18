@@ -31,6 +31,13 @@ nbdist/
 # dependencies
 /node_modules
 
+# published source
+/public/asset-manifest.json
+/public/index.html
+/public/service-worker.js
+/public/static/*
+
+
 # testing
 /coverage
 
