@@ -1,13 +1,12 @@
 # coin-lab
 
 # 패키지구조
-com.coinlab.controller
-com.coinlab.service
-com.coinlab.dao
-com.coinlab.vo
+com.coinlab.asset
+com.coinlab.common
+com.coinlab.jwt
+com.coinlab.trade
+com.coinlab.user
 
-com.coinlab.util
-com.coinlab.xxx
 
 # 개발환경
 java 8
