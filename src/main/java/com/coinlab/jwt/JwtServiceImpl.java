@@ -6,11 +6,10 @@ import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 
-import org.springframework.stereotype.Service;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
-import com.coinlab.error.UnauthorizedException;
+import com.coinlab.common.error.UnauthorizedException;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jws;
@@ -69,7 +68,7 @@ public class JwtServiceImpl implements JwtService{
 			}*/
 			throw new UnauthorizedException();
 
-			/*ê°œë°œ?™˜ê²?!!!
+			/*ê°œë°œ?ï¿½ï¿½ï¿½?!!!
 			 * return false;*/
 			 
 		}
@@ -93,7 +92,7 @@ public class JwtServiceImpl implements JwtService{
 			}*/
 			throw new UnauthorizedException();
 			
-			/*ê°œë°œ?™˜ê²?
+			/*ê°œë°œ?ï¿½ï¿½ï¿½?
 			Map<String,Object> testMap = new HashMap<>();
 			testMap.put("memberId", 2);
 			return testMap;*/

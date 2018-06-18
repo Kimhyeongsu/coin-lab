@@ -1,13 +1,16 @@
 package com.coinlab;
 
-import com.coinlab.entity.User;
-import com.coinlab.entity.UserRepository;
+import com.coinlab.user.dto.UserDto;
+import com.coinlab.user.entity.User;
+import com.coinlab.user.entity.UserRepository;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
+
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -41,6 +44,23 @@ public class UserRepositoryTest {
         assertThat(user.getEmail(), is("khs0324@gmail.com"));
         assertThat(user.getPassword(), is("1234"));
         assertThat(user.getStatus(), is("S"));
+
+    }
+
+    @Test
+    public void mapper() {
+        User u = User.builder()
+                .email("khs0324@gmail.com")
+                .password("1234")
+                .badPasswordCount(0)
+                .status("S")
+                .build();
+
+        ModelMapper modelMapper = new ModelMapper();
+
+        UserDto dto = modelMapper.map(u, UserDto.class);
+
+        System.out.println("email : " + dto.getEmail());
 
     }
 
